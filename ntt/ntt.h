@@ -16,7 +16,9 @@
  Every element has to be 0 ~ 192 inclusive. (unsigned int)
  Larger than 192 would cause loss in information. (Due to mod 193)
  */
-void ntt(unsigned int *io[16]);
-void intt(unsigned int *io[16]);
+void ntt(unsigned int **io);
+void _ntt(unsigned int **io);
+void intt(unsigned int **io);
+void _intt(unsigned int **io);
 
 #endif

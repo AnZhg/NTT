@@ -57,6 +57,8 @@ int main(int argc, const char * argv[])
     }
     printf("\n");
     
+    free(io);
+    
     return 0;
 }
 
